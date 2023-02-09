@@ -1,0 +1,497 @@
+
+/*el rectangulo grande(el fondo/LA HOJA)*/
+section{ 
+   position: relative;
+   left:258px;
+   width: 700px;                               
+   height:800px ;
+   border:1px solid black;
+   padding:40px;
+   margin:30px; 
+   
+}
+
+/*esto es un cuadrado*/
+.cuad{
+    border-top: thin solid black;
+    border-right: thin solid black;
+    border-bottom:thin solid black;
+    border-left:thin solid black;
+    height:270px;                                     /* el largo hacia abajo de la linea*/
+    top:-9px; 
+    margin-left: -41px;                               /*esta corrido hacia la izquierda*/
+    width:250px;                                      /*esto es el ancho del cuadrado*/
+    position: absolute;
+    
+}
+
+/*rectangulo parado */
+
+.rec_lar{
+    background-color: rgba(204, 182, 120, 0.959);
+    border-top: thin solid black;
+    border-right: thin solid black;
+    border-bottom:thin solid black;
+    border-left:thin solid black;
+    height:609px;                                     /* el largo hacia abajo de la linea*/
+    top:262px; 
+    margin-left: -41px;                               /*esta corrido hacia la izquierda*/
+    width:250px;                                      /*esto es el ancho del cuadrado*/
+    position: absolute;
+    
+}
+
+
+.rec_acostado{
+    background-color: rgb(199, 171, 105);
+    border-top: thin solid black;
+    border-right: thin solid black;
+    border-bottom:thin solid black;
+    border-left:thin solid black;
+    height:100px;                                    /* el largo hacia abajo de la linea*/
+    top:80px;                                        /*del margen de arriba hacia abajo*/
+    margin-left:210px;                               /*esta corrido hacia la izquierda*/
+    width:529px;                                     /*esto es el ancho del cuadrado*/
+    position: absolute;
+    
+}
+
+/*recuadro "sobre mi"*/
+
+.rec_acostado2{
+    background-color: rgba(204, 182, 120, 0.959);
+    border-top: thin solid black;
+    border-right: thin solid black;
+    border-bottom:thin solid black;
+    border-left:thin solid rgba(204, 182, 120, 0.959);
+    height:30px;                                    /* el largo hacia abajo de la linea*/
+    top:276px;                                      /*del margen de arriba hacia abajo*/
+    margin-left:210px;                               /*esta corrido hacia la izquierda*/
+    width:180px;                                     /*esto es el ancho del cuadrado*/
+    position: absolute;
+    
+}
+
+
+/*recuadro de experiencia*/
+.rec_acostado3{
+    background-color: rgba(204, 182, 120, 0.959);
+    border-top: thin solid black;
+    border-right: thin solid black;
+    border-bottom:thin solid black;
+    border-left:thin solid rgba(204, 182, 120, 0.959);;
+    height:30px;                                      /* el largo hacia abajo de la linea*/
+    top:456px;                                        /*del margen de la hoja de arriba hacia abajo*/
+    margin-left:210px;                               /*esta corrido hacia la izquierda*/
+    width:180px;                                     /*esto es el ancho del cuadrado*/
+    position: absolute;
+    
+}
+
+
+
+/*recuadro de habilidades de software*/
+.rec_acostado4{
+    background-color: rgba(204, 182, 120, 0.959);
+    border-top: thin solid black;
+    border-right: thin solid black;
+    border-bottom:thin solid black;
+    border-left:thin solid rgba(204, 182, 120, 0.959);;
+    height:30px;                                        /* el alto*/
+    top:624px;                                        /*del margen de la hoja de arriba hacia abajo*/
+    margin-left:210px;                               /*esta corrido hacia la izquierda*/
+    width:270px;                                     /*esto es el ancho del cuadrado*/
+    position: absolute;
+    
+}
+
+/*items de formacion academica*/
+ul1{
+    color:black;
+    top:65px; 
+    margin-left: -8px;                             /*esta corrido hacia la izquierda*/
+    width:245px;                                    /*esto es el ancho del cuadrado*/
+    position: absolute;
+}
+
+ul2{
+    font-family: 'Mulish', sans-serif;    
+    top:50px; 
+    margin-left: -8px;                             /*esta corrido hacia la izquierda*/
+    width:245px;                                    /*esto es el ancho del cuadrado*/
+    position: absolute;
+}
+
+.img{
+    height:270px;                                   /* el largo hacia abajo de la linea*/
+    top:0px; 
+    margin-left: -40px;                             /*esta corrido hacia la izquierda */
+    width:250px;                                    /*esto es el ancho del cuadrado*/
+    position: absolute;
+}
+/*nombre y apellido*/
+h1{ 
+    color:black;
+    top:88px;                                       /*del margen de arriba hacia abajo*/
+    margin-left:388px;                              /*esta corrido hacia la izquierda*/
+    position: absolute;
+    width:500px;
+}
+
+h5{
+    font-family: 'Barlow', sans-serif;
+    color:black;
+    top:280px; 
+    margin-left: -20px;                             /*esta corrido hacia la izquierda*/
+    width:250px;                                    /*esto es el ancho del cuadrado*/
+    position: absolute;
+}
+
+/*profesion:Administradora de empresas*/
+p1{
+    font-family: 'Mulish', sans-serif;
+    color:black;
+    top:136px;                                      /*del margen de arriba hacia abajo*/
+    margin-left:370px;                              /*esta corrido hacia la izquierda*/
+    position: absolute;
+    width:500px;
+}
+
+/*formacion*/
+p2{
+    font-family: 'Barlow', sans-serif;
+    color:black;
+    top:272px; 
+    margin-left: -10px;                             /*esta corrido hacia la izquierda*/
+    width:250px;                                    /*esto es el ancho del cuadrado*/
+    position: absolute;
+}
+
+/*idioma*/
+p3{
+    font-family: 'Barlow', sans-serif;
+    color:black;
+    top:510px; 
+    margin-left: -8px;                             /*esta corrido hacia la izquierda*/
+    width:250px;                                    /*esto es el ancho del cuadrado*/
+    position: absolute;
+}
+/*contacto*/
+p4{
+    font-family: 'Barlow', sans-serif;
+    color:black;
+    top:700px; 
+    margin-left: -8px;                             /*esta corrido hacia la izquierda*/
+    width:250px;                                   /*esto es el ancho del cuadrado*/
+    position: absolute;
+}
+/*sobre mi*/
+p5{
+    font-family: 'Barlow', sans-serif;
+    color:black;
+    top:270px;                                     /*del margen de arriba hacia abajo*/
+    margin-left:238px;                             /*esta corrido hacia la izquierda*/
+    position: absolute;
+    width:500px;
+}
+/*experiencia*/
+p6{
+    font-family: 'Barlow', sans-serif;
+    color:black;
+    top:452px;                                      /*del margen de arriba hacia abajo*/
+    margin-left:238px;                             /*esta corrido hacia la izquierda*/
+    position: absolute;
+    width:500px;
+}
+/*habilidades de software*/
+p7{
+    font-family: 'Barlow', sans-serif;
+    color:black;
+    top:620px;                                     /*del margen de arriba hacia abajo*/
+    margin-left:238px;                             /*esta corrido hacia la izquierda*/
+    position: absolute;
+    width:500px;
+}
+/*Microsoft Word*/
+p8{
+    font-family: 'Barlow', sans-serif;
+    position:absolute;
+    top:694px;                               /*del margen de arriba hacia abajo*/
+    margin-left:250px;                       /*esta corrido hacia la izquierda*/
+    width:100px;                             /*largo de la barra*/
+    height:10px ;
+    text-overflow: clip;                    /*para que las palabras esten ..*/
+    white-space: nowrap;                     /*en el mismo renglon*/                   
+
+}
+
+/*Microsoft Powerpoint*/
+p9{
+    font-family: 'Barlow', sans-serif;
+    position:absolute;
+    top:694px;                               /*del margen de arriba hacia abajo*/
+    margin-left:550px;                       /*esta corrido hacia la izquierda*/
+    width:100px;                             /*largo de la barra*/
+    height:10px ;                            /*alto de la barra*/
+    text-overflow: clip;                    /*para que las palabras esten ..*/
+    white-space: nowrap;                     /*en el mismo renglon*/                  
+}
+/*HTML-CSS*/
+p10{
+    font-family: 'Barlow', sans-serif;
+    position:absolute;
+    top:780px;                               /*del margen de arriba hacia abajo*/
+    margin-left:250px;                       /*esta corrido hacia la izquierda*/
+    width:100px;                             /*largo de la barra*/
+    height:10px ;                            /*alto de la barra*/
+}
+/*Adobe Photoshop*/
+p11{
+    font-family: 'Barlow', sans-serif;
+    position:absolute;
+    top:780px;                               /*del margen de arriba hacia abajo*/
+    margin-left:550px;                       /*esta corrido hacia la izquierda*/
+    width:100px;                             /*largo de la barra*/
+    height:10px ;                            /*alto de la barra*/
+    text-overflow: clip;                    /*para que las palabras esten ..*/
+    white-space: nowrap;                     /*en el mismo renglon*/                  
+}
+
+/*primaria,secundaria,y licenciatura en administracion*/
+p12{
+    font-family: 'Mulish', sans-serif;    
+}
+ /*sobre mi*/
+p13{
+    color:black;
+    top:294px; 
+    margin-left: -35px;                             /*esta corrido hacia la izquierda*/
+    width:250px;           
+    position: absolute;
+}
+/*idiomas*/
+p14{
+    color:black;
+    top:534px; 
+    margin-left: -35px;                             /*esta corrido hacia la izquierda*/
+    width:248px;           
+    position: absolute;
+}
+/*telefono*/
+p15{
+    color:black;
+    top:754px; 
+    margin-left: -35px;                             /*esta corrido hacia la izquierda*/
+    width:250px;           
+    position: absolute;
+}
+
+/*email*/
+p16{
+    color:black;
+    top:796px; 
+    margin-left: -35px;                             /*esta corrido hacia la izquierda*/
+    width:250px;           
+    position: absolute;
+}
+
+/*ubicacion*/
+p17{
+    color:black;
+    top:834px; 
+    margin-left: -35px;                             /*esta corrido hacia la izquierda*/
+    width:250px;           
+    position: absolute;
+}
+
+p18{
+    font-family: 'Barlow', sans-serif;
+    position:absolute;
+    top:730px;                               /*del margen de arriba hacia abajo*/
+    margin-left:-100px;                       /*esta corrido hacia la izquierda*/
+    width:100px;                             /*largo de la barra*/
+    height:10px ;
+    text-overflow: clip;                    /*para que las palabras esten ..*/
+    white-space: nowrap;                     /*en el mismo renglon*/      
+}
+
+
+/*SOBRE LA BARRA PROGRESIVA*/
+:root{
+    --bar-color:rgba(204, 182, 120, 0.959);
+    --bar2-color:rgba(163, 144, 91, 0.959);
+    --tamañoderelleno:0%;
+}
+/*Microsoft Word*/
+.barra1{
+    border-color: rgb(199, 171, 105);
+     border-width: 1px;
+    border-style:solid;
+    position:absolute;
+    top:755px;                               /*del margen de arriba hacia abajo*/
+    margin-left:600px;                       /*esta corrido hacia la izquierda*/
+    width:100px;                             /*largo de la barra*/
+    height:10px ;                            /*alto de la barra*/
+    border-radius:2em;
+    overflow: hidden;
+}
+
+.barra1::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: var(--bar-color);
+    transform: translateX(-100%);
+    animation: fill-bar 0.8s 0.3s ease-in-out forwards;
+}
+
+/*Microsoft Powerpoint*/
+.barra2{
+    border-color: rgb(199, 171, 105);
+    border-width: 1px;
+   border-style:solid;
+    position:absolute;
+    top:755px;                               /*del margen de arriba hacia abajo*/
+    margin-left:900px;                       /*esta corrido hacia la izquierda*/
+    width:100px;                             /*largo de la barra*/
+    height:10px ;                            /*alto de la barra*/
+    border-radius:2em;
+    overflow: hidden;
+}
+
+.barra2::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: var(--bar-color);
+    transform: translateX(-100%);
+    animation: fill-bar 0.8s 0.3s ease-in-out forwards;
+}
+
+/*HTML-CSS*/
+.barra3{
+    border-color: rgb(199, 171, 105);
+    border-width: 1px;
+    border-style:solid;
+    position:absolute;
+    top:840px;                               /*del margen de arriba hacia abajo*/
+    margin-left:600px;                       /*esta corrido hacia la izquierda*/
+    width:100px;                             /*largo de la barra*/
+    height:10px ;                            /*alto de la barra*/
+    border-radius:2em;
+    overflow: hidden;
+}
+
+.barra3::before{
+    content: '';
+    position: absolute;
+    width: 75%;
+    height: 100%;
+    background-color: var(--bar-color);
+    transform: translateX(-100%);
+    animation: fill-bar 0.8s 0.3s ease-in-out forwards;
+}
+
+/*Adobe Photoshop*/
+.barra4{
+    border-color: rgb(199, 171, 105);
+    border-width: 1px;
+    border-style:solid;
+    position:absolute;
+    top:840px;                               /*del margen de arriba hacia abajo*/
+    margin-left:900px;                       /*esta corrido hacia la izquierda*/
+    width:100px;                             /*largo de la barra*/
+    height:10px ;                            /*alto de la barra*/
+    border-radius:2em;
+    overflow: hidden;
+}
+
+.barra4::before{
+    content: '';
+    position: absolute;
+    width: 60%;
+    height: 100%;
+    background-color: var(--bar-color);
+    transform: translateX(-100%);
+    animation: fill-bar 0.8s 0.3s ease-in-out forwards;
+}
+/*Ingles*/
+.barra5{
+    border-color:black;
+    border-width: 1px;
+    border-style:double;
+    position:absolute;
+    top:598px;                               /*del margen de arriba hacia abajo*/
+    margin-left:410px;                       /*esta corrido hacia la izquierda*/
+    width:100px;                             /*largo de la barra*/
+    height:6px ;                             /*alto de la barra*/
+    border-radius:2em;
+    overflow: hidden;
+}
+
+.barra5::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: var(--bar2-color);
+    transform: translateX(-100%);
+    animation: fill-bar 0.8s 0.3s ease-in-out forwards;
+}
+
+/*Aleman*/
+.barra6{
+    border-color:black;
+    border-width: 1px;
+    border-style:double;
+    position:absolute;
+    top:636px;                               /*del margen de arriba hacia abajo*/
+    margin-left:410px;                       /*esta corrido hacia la izquierda*/
+    width:100px;                             /*largo de la barra*/
+    height:6px ;                             /*alto de la barra*/
+    border-radius:2em;
+    overflow: hidden;
+}
+
+.barra6::before{
+    content: '';
+    position: absolute;
+    width: 60%;
+    height: 100%;
+    background-color: var(--bar2-color);
+    transform: translateX(-100%);
+    animation: fill-bar 0.8s 0.3s ease-in-out forwards;
+}
+
+/*Chino*/
+.barra7{
+    border-color:black;
+    border-width: 1px;
+    border-style:double;
+    position:absolute;
+    top:676px;                               /*del margen de arriba hacia abajo*/
+    margin-left:410px;                       /*esta corrido hacia la izquierda*/
+    width:100px;                             /*largo de la barra*/
+    height:6px ;                             /*alto de la barra*/
+    border-radius:2em;
+    overflow: hidden;
+}
+
+.barra7::before{
+    content: '';
+    position: absolute;
+    width: 30%;
+    height: 100%;
+    background-color: var(--bar2-color);
+    transform: translateX(-100%);
+    animation: fill-bar 0.8s 0.3s ease-in-out forwards;
+}
+@keyframes fill-bar{
+    to{
+        transform: translateX(var(--tamañoderelleno));
+    }
+}
+
+
